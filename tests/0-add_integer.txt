@@ -1,0 +1,28 @@
+==
+The 0-add_integer module
+==
+
+Using add_integer
+
+import the function 
+
+	>>> add_integer = __import__('0-add_integer').add_integer
+
+Now test it:
+
+	>>> add_integer(1,2)
+	3
+
+	>>> add_integer(4, "people")
+	Traceback(most recect test):
+	TypeError: a must be an integer
+
+	>>> add_integer()
+	Traceback(Most recent call):
+	TypeError: Atleast one positional argument required:
+
+	>>> add_integer("Hello", "School")
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+	>>> add_integer(100e100)
