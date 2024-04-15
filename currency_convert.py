@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+
 # Use this exchange rate
+
 NAIRA_PER_DOLLAR = 410.59 # exchange rate as of Nov 10 2021
 
 USD_Value = float(input("Enter amount of USD to convert to NGN: "))
