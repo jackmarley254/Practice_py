@@ -12,3 +12,5 @@ for x in range(1,101):
     print(x, "is a multiple of 3")
   elif x % 5 == 0:
     print(x, "is a multiple of 5")
+else:
+	print("Have a good day")
