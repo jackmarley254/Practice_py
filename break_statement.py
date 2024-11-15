@@ -8,3 +8,4 @@ while True:
         print("Random Number has been guessed successfully!")
         break # Breaks and exits from the loop
     i += 1
+print("End of the program")
