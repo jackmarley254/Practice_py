@@ -20,6 +20,6 @@ class Pow_of_Two:
 print(Pow_of_Two.__doc__)
 a = Pow_of_Two(4)
 i = iter(a)
-print((i.__next__()))
+print((i.__next__())) 
 print(next(i))
 print(next(i))
