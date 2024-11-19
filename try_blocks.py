@@ -12,3 +12,5 @@ except ValueError:
     print("The datatypes are not proper")
 except NameError:
     print("The datatypes are not defined")
+except TypeError:
+    print("The value cannot be less than zero")
